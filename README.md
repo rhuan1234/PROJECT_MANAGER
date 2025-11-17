@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+📁 Gerenciador de Projetos – React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um sistema completo de gerenciamento de projetos desenvolvido em React, utilizando React Router DOM, componentes reutilizáveis e boas práticas de organização.
+O objetivo deste projeto é treinar componentização, navegação, formulários e gerenciamento básico de projetos dentro de uma aplicação frontend. Ele foi feito no curso de react ofertado pelo https://www.youtube.com/@MatheusBattisti
 
-## Available Scripts
+🚀 Funcionalidades
 
-In the project directory, you can run:
+🏠 Home — página inicial do sistema
 
-### `npm start`
+📂 Listagem de projetos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+➕ Criar novo projeto através de um formulário dedicado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📝 Gerenciar e visualizar um projeto específico através de rotas dinâmicas
 
-### `npm test`
+🏢 Página de Empresa (Company)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📞 Página de Contato (Contact)
 
-### `npm run build`
+🧩 Layout modular com:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+NavBar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Container
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Footer
 
-### `npm run eject`
+🧭 Rotas do Sistema
+Rota	Página / Função
+/	Home
+/projects	Lista de Projetos
+/project/:id	Projeto individual
+/newProject	Criar novo projeto
+/company	Página da empresa
+/contact	Página de contato
+🛠️ Tecnologias Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+React Router DOM
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+JavaScript (ES6+)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+CSS Modules
 
-## Learn More
+Componentização avançada
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📦 Instalação e Execução
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone o repositório:
 
-### Code Splitting
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Acesse a pasta do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd NOME-DO-REPOSITORIO
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instale as dependências:
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Execute o projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+Rodar o backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm run backend
+
+O app estará disponível em:
+
+http://localhost:3000
+
+🎯 Objetivo do Projeto
+
+Este projeto foi desenvolvido para estudar e reforçar:
+
+Componentização no React
+
+Navegação com rotas dinâmicas
+
+Organização de pastas e páginas
+
+Criação de formulários
+
+Uso de CSS Modules
+
+Boas práticas de desenvolvimento frontend
