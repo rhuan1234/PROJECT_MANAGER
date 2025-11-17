@@ -1,0 +1,11 @@
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+    flex-wrap: wrap;
+}
+
+.min-heigth{
+    min-height: 75%;
+}
