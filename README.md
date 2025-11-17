@@ -89,3 +89,6 @@ Criação de formulários
 Uso de CSS Modules
 
 Boas práticas de desenvolvimento frontend
+
+Próximos passos:
+Construir as abas de contato (contact) e da empresa (company)
