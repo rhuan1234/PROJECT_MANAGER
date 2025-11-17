@@ -49,12 +49,12 @@ Componentização avançada
 
 Clone o repositório:
 
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+git clone https://github.com/rhuan1234/PROJECT_MANAGER.git
 
 
 Acesse a pasta do projeto:
 
-cd NOME-DO-REPOSITORIO
+cd PROJECT_MANAGER
 
 
 Instale as dependências:
